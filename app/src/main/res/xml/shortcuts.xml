@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="contacts"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/set_alarm"
+        android:shortcutLongLabel="@string/set_alarm" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.smaik.shortcutsapp"
+            android:targetClass="com.example.smaik.shortcutsapp.ClockActivity" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="test"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/contacts"
+        android:shortcutLongLabel="@string/contacts" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.smaik.shortcutsapp"
+            android:targetClass="com.example.smaik.shortcutsapp.ContactsActivity" />
+    </shortcut>
+
+</shortcuts>
